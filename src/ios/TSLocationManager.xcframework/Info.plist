@@ -58,4 +58,9 @@
 	<key>XCFrameworkFormatVersion</key>
 	<string>1.0</string>
 </dict>
+<dict>
+    <!-- Other existing keys -->
+    <key>NSMotionUsageDescription</key>
+    <string>We need access to motion data to track your activity and provide personalized fitness insights.</string>
+</dict>
 </plist>
