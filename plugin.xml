@@ -89,7 +89,7 @@
     <platform name="android">
 	<config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
         	<meta-data 
-			android:name="com.transistorsoft.locationmanager.license" 
+			android:name="com.stengg.STEngineeringTracker" 
 			android:value="YOUR_LICENSE_KEY_HERE" />
       	</config-file>
         <preference name="GOOGLE_API_VERSION" default="20.+" />
