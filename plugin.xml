@@ -87,11 +87,11 @@
 
      <!-- android -->
     <platform name="android">
-	<preference name="LICENSE_KEY" default="[CHANGEME] LICENSE_KEY" />
+	<preference name="LICENSE_KEY" default="[CHANGEME] LICENSE KEY" />
 		<config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
         		<meta-data 
 				android:name="com.transistorsoft.locationmanager.license" 
-				android:value="YOUR_LICENSE_KEY_HERE" />
+				android:value="$LICENSE_KEY" />
       		</config-file>
         <preference name="GOOGLE_API_VERSION" default="20.+" />
         <preference name="HMS_LOCATION_VERSION" default="6.9.0.300" />
